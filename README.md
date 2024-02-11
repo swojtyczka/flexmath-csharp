@@ -1,4 +1,8 @@
-# Interpreter wyrażeń arytmetycznych
+# flexmath-csharp
+
+This project was created as a final project for "**Object-oriented programming**" course.
+
+All comments and the description of this project is in polish language.
 
 ## Zadania
 
@@ -10,7 +14,7 @@
 ## 1. Lexer
 
 Zadaniem lexera będzie przerobić string zawierający wyrażenie na listę tokenów.
-Na przykład dla napisu `"x*(3+5)/2"` lexer zwróci listę wyglądającą podobnie do:
+Na przykład dla napisu `"x*(3+5)/2"` lexer zwróci listę wyglądającą mniej więcej tak:
 
 ```cs
 {
@@ -47,4 +51,4 @@ Otrzymane drzewo możemy następnie obliczyć do wartości dzięki rekurencyjnej
 
 ## 4. Program główny
 
-Najpierw zostaje obliczone ewentualne wyrażenie z argumentu wywołania a następnie program będzie oczekiwał na wczytanie wyrażeń i je obliczał (lub informował o błędach) do zamknięcia programu. Jeśli wejście użytkownika będzie zaczyna się od `/` to program będzie je traktował jako polecenie.
+Najpierw zostaje obliczone ewentualne wyrażenie z argumentu wywołania a następnie program będzie oczekiwał na wczytanie wyrażeń i je obliczał (lub informował o błędach) aż do zamknięcia programu. Jeśli wejście zaczyna się od `/` to program będzie je traktował jako polecenie. Aby wyświetlić polecenia można użyć `/help`
