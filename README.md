@@ -2,7 +2,7 @@
 
 This project was created as a final project for "**Object-oriented programming**" course.
 
-All comments and the description of this project is in polish language.
+All comments and notes are in polish language.
 
 ## Zadania
 
